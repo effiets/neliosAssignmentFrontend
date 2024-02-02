@@ -1,8 +1,10 @@
 # Nelios assignment Frontend Project
 
-A responsive application that fetches data from the backend. 
+A responsive application build with that fetches data from the backend. 
 The user can filter the results by price or /and by meal plan.
 The results can also be sorted by Price or rating.
+
+FrontEnd  stack: HTML CSS Javascript, ReactJS
 
 #### To run the up please:
 Download the backend here --> https://github.com/effiets/neliosAssignmentBackend
