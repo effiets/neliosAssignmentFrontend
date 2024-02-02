@@ -1,0 +1,193 @@
+.search-container {
+  width: 1096px;
+  height: 122px;
+  margin: auto;
+  text-align: center;
+}
+
+.tabs {
+  background-color: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+  display: flex;
+  margin: auto;
+  border-radius: 96px;
+  padding: 4px;
+  width: 245px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.trips {
+  width: 113px;
+  height: 42px;
+  padding: 16px, 24px, 16px, 24px;
+  border-radius: 96px;
+  gap: 8px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 24px 32px -12px rgba(0, 0, 0, 0.1);
+}
+
+.trips p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: rgba(0, 150, 73, 1);
+}
+
+.hotels {
+  width: 124px;
+  height: 42px;
+  padding: 16px, 24px, 16px, 24px;
+  border-radius: 8px;
+  gap: 8px;
+}
+
+.hotels p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: var(--grey);
+}
+
+.search_div {
+  display: flex;
+  margin-top: 10px;
+  width: 1096px;
+  height: 64px;
+  padding: 0px, 8px, 0px, 0px;
+  border-radius: 12px;
+  border: 1px;
+  gap: 8px;
+  background-color: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.search-fields {
+  margin-top: 5px;
+  display: flex;
+  width: 938px;
+  height: 64px;
+}
+
+.fields_destination {
+  width: 328px;
+  height: 64px;
+  padding: 8px, 32px, 8px, 32px;
+  border-radius: 12px;
+  border-right: 1px solid rgba(190, 190, 190, 0.1);
+}
+.fields {
+  width: 218.5px;
+  height: 64px;
+  padding: 8px, 32px, 8px, 32px;
+  border-radius: 12px;
+  border-right: 1px solid rgba(190, 190, 190, 0.1);
+}
+
+.fields_text_dest {
+  width: 72px;
+  height: 16px;
+  padding-left: 28px;
+  line-height: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  color: rgba(85, 85, 99, 1);
+}
+
+.fields_text_country {
+  line-height: 2px;
+  width: 48px;
+  height: 16px;
+  padding-left: 28px;
+  font-size: 14px;
+  font-weight: 350;
+  text-align: left;
+}
+
+.fields_text {
+  width: 70px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 350;
+  line-height: 16px;
+  text-align: left;
+}
+
+.people {
+  width: 106px;
+  height: 16px;
+}
+
+.fields_btn {
+  margin-top: 5px;
+  width: 142px;
+  height: 48px;
+  padding: 16px, 24px, 16px, 24px;
+  border-radius: 8px;
+  background-color: rgba(0, 150, 73, 1);
+  border: 1px solid rgba(0, 150, 73, 1);
+}
+
+.fields_btn p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 1);
+}
+
+.fields_btn p::before {
+  content: url(../images/icon.svg);
+  width: 13px;
+  height: 13px;
+  top: 1.5px;
+  left: 1.5px;
+  margin-right: 6px;
+}
+.edit-logo {
+  display: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .tabs, .fields_text_dest, .fields, .fields_btn {
+    display: none;
+  }
+
+  .search-container {
+    display: flex;
+    width: 328px;
+    height: 54px;
+    padding: 8px, 16px, 8px, 24px;
+    border-radius: 999px;
+    border: 1px;
+    justify-content: space-between;
+    background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+      linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .edit-logo {
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-top: 16px;
+    margin-right: 16px;
+  }
+
+  .search_div {
+    width: 209px;
+    height: 38px;
+    margin: 4px;
+    border: none;
+  }
+}

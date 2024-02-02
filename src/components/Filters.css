@@ -1,0 +1,140 @@
+.filter-container {
+  width: 312px;
+  height: 700px;
+  padding: 24px;
+  border-radius: 12px;
+  margin-top: 64px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.filter_title-container {
+  width: 264px;
+  height: 55px;
+  padding: 0px, 0px, 24px, 0px;
+  margin: 24px;
+}
+.filter_title-container h5 {
+  width: 264px;
+  height: 31px;
+  font-size: 31px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: var(--black);
+}
+
+.price {
+  margin-top: 24px;
+  width: 264px;
+  height: 150px;
+}
+h7 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: rgba(85, 85, 99, 1);
+}
+
+.price_selection-container {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  height: 80px;
+  margin-top: 16px;
+}
+.price_selection-container label {
+  width: 240px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(85, 85, 99, 1);
+  margin-top: 8px;
+}
+
+.price_selection-container input {
+  width: 16px;
+  height: 16px;
+  border: 1px;
+  background: rgba(190, 190, 190, 1);
+  border: 1px solid rgba(190, 190, 190, 1);
+  margin-right: 16px;
+}
+
+.line {
+  width: 264px;
+  height: 1px;
+  color: rgba(0, 0, 0, 0.1);
+  margin-top: 24px;
+}
+
+.meal {
+  width: 264px;
+  height: 188px;
+  margin-top: 24px;
+}
+
+.meal_selection-container {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  height: 80px;
+  margin-top: 16px;
+}
+
+.meal_selection-container label {
+  width: 240px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(85, 85, 99, 1);
+  margin-top: 8px;
+}
+
+.meal_selection-container input {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  border: 1px;
+  color: rgba(190, 190, 190, 1);
+  border: 1px solid rgba(190, 190, 190, 1);
+  margin-right: 16px;
+}
+
+.filter_title-container img {
+  display: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .filter-container {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .filter_title-container {
+    display: flex;
+    height: 55px;
+    padding: 0px, 0px, 24px, 0px;
+  }
+  .filter_title-container img {
+    display: block;
+    position: absolute;
+    top: 120px;
+    right: 20px;
+  }
+
+  .filter_title-container h5{
+    font-size: 20px;
+    width: 200px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+  }
+}

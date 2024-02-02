@@ -1,0 +1,91 @@
+.card_container {
+  width: 312px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 24px 32px -12px rgba(0, 0, 0, 0.1);
+}
+
+.card_container img {
+  width: 312px;
+  height: 282px;
+  border-radius: 12px;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  height: 90px;
+  margin: 8px;
+}
+
+.cart-title,
+.cart-meal,
+.cart-city {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 0px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: rgba(85, 85, 99, 1);
+}
+
+.cart-meal,
+.cart-city {
+  font-size: 14px;
+}
+
+.price-info {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 48px;
+  margin-top: 12px;
+}
+
+.price-info p {
+  width: 158px;
+  height: 25px;
+  margin-left: 4px;
+  font-weight: 600;
+  color: val(--black);
+}
+.price-info span {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.resrvation-btn {
+  width: 106px;
+  height: 48px;
+  padding: 16px, 24px, 16px, 24px;
+  border-radius: 8px;
+  border: 1px;
+  background-color: rgba(0, 150, 73, 1);
+  border: 1px solid rgba(0, 150, 73, 1);
+  color: var(--white);
+}
+
+.rating {
+  margin-bottom: 8px;
+  margin-left: 8px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 640px) {
+  .card_container {
+    width: 340px;
+  }
+
+  .card_container img {
+    width: 100%;
+  }
+  .price-info {
+    width: 95%;
+    margin: 10px auto;
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "data": [
+    {
+      "name": "ad ea",
+      "rating": 0,
+      "meal_plan": "All Inclusive",
+      "city": "Trinway",
+      "price": 413.44,
+      "photo": "https://picsum.photos/200/300"
+    },
+    {
+      "name": "reprehenderit minim",
+      "rating": 3,
+      "meal_plan": "Bed Breakfast",
+      "city": "Orviston",
+      "price": 289.11,
+      "photo": "https://picsum.photos/200/300"
+    },
+    {
+      "name": "occaecat nulla",
+      "rating": 4,
+      "meal_plan": "Bed Breakfast",
+      "city": "Jacksonburg",
+      "price": 277.44,
+      "photo": "https://picsum.photos/200/300"
+    },
+    {
+      "name": "consequat nisi",
+      "rating": 1,
+      "meal_plan": "Half Board",
+      "city": "Elrama",
+      "price": 334.64,
+      "photo": "https://picsum.photos/200/300"
+    },
+    {
+      "name": "ad consectetur",
+      "rating": 5,
+      "meal_plan": "Half Board",
+      "city": "Hebron",
+      "price": 236.23,
+      "photo": "https://picsum.photos/200/300"
+    },
+    {
+      "name": "sit ullamco",
+      "rating": 3,
+      "meal_plan": "All Inclusive",
+      "city": "Gouglersville",
+      "price": 200.81,
+      "photo": "https://picsum.photos/200/300"
+    },
+    {
+      "name": "aliqua veniam",
+      "rating": 3,
+      "meal_plan": "All Inclusive",
+      "city": "Camptown",
+      "price": 319.62,
+      "photo": "https://picsum.photos/200/300"
+    },
+    {
+      "name": "veniam adipisicing",
+      "rating": 1,
+      "meal_plan": "Room Only",
+      "city": "Sussex",
+      "price": 283.96,
+      "photo": "https://picsum.photos/200/300"
+    },
+    {
+      "name": "duis ut",
+      "rating": 2,
+      "meal_plan": "Half Board",
+      "city": "Fivepointville",
+      "price": 354.36,
+      "photo": "https://picsum.photos/200/300"
+    },
+    {
+      "name": "ut Lorem",
+      "rating": 0,
+      "meal_plan": "All Inclusive",
+      "city": "Barrelville",
+      "price": 276.93,
+      "photo": "https://picsum.photos/200/300"
+    },
+    {
+      "name": "pariatur sint",
+      "rating": 2,
+      "meal_plan": "Room Only",
+      "city": "Tecolotito",
+      "price": 375.79,
+      "photo": "https://picsum.photos/200/300"
+    },
+    {
+      "name": "qui amet",
+      "rating": 1,
+      "meal_plan": "Bed Breakfast",
+      "city": "Martell",
+      "price": 197.76,
+      "photo": "https://picsum.photos/200/300"
+    }
+  ]
+}
